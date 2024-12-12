@@ -1,8 +1,8 @@
-# pyprojecttoml.template
+# templates/pyprojecttoml.template
 #
-# This file is the template for pythoneda-runtime/secrets-events's pyproject.toml
+# This file is the template for pythoneda-shared-runtime/secrets-events's pyproject.toml
 #
-# Copyright (C) 2024-today rydnr's pythoneda-runtime-def/secrets-events
+# Copyright (C) 2024-today rydnr's pythoneda-shared-runtime/secrets-events
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
