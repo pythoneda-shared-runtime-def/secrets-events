@@ -31,7 +31,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.109";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.110";
     };
   };
   outputs = inputs:
@@ -40,8 +40,8 @@
       let
         org = "pythoneda-shared-runtime";
         repo = "secrets-events";
-        version = "0.0.4";
-        sha256 = "190jyr9r16784way04nvm2k9y66lyjbniz76ciw1l0gyilzw9gfq";
+        version = "0.0.5";
+        sha256 = "0yvr4g1wk0fbyzqqpvgn18937hcp6ip06hwrz8m5dzi3rvchzl11";
         pname = "${org}-${repo}";
         pythonpackage = "pythoneda.shared.runtime.secrets.events";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
