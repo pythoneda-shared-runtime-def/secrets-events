@@ -19,7 +19,7 @@
 {
   description = "Nix flake for pythoneda-shared-runtime/secrets-events";
   inputs = rec {
-    nixpkgs.url = "github:NixOS/nixpkgs/24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
     pythoneda-shared-pythonlang-banner = {
       inputs.nixpkgs.follows = "nixpkgs";
