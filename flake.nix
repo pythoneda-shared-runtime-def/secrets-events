@@ -19,19 +19,19 @@
 {
   description = "Nix flake for pythoneda-shared-runtime/secrets-events";
   inputs = rec {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/24.05";
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
     pythoneda-shared-pythonlang-banner = {
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
-      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.80";
+      url = "github:pythoneda-shared-pythonlang-def/banner/0.0.83";
     };
     pythoneda-shared-pythonlang-domain = {
       inputs.flake-utils.follows = "flake-utils";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.116";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.123";
     };
   };
   outputs = inputs:
